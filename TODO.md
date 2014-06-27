@@ -1,0 +1,4 @@
+ - fix READMEs
+ - fix flux recipe
+ - fix workstation run_list
+ - add other tools
