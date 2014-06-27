@@ -1,0 +1,11 @@
+source "https://api.berkshelf.com"
+
+metadata
+
+cookbook 'nodejs', git: 'git://github.com/mdxp/nodejs-cookbook.git'
+cookbook 'java',   git: 'git://github.com/socrata-cookbooks/java.git'
+cookbook 'vim',    git: 'git://github.com/opscode-cookbooks/vim.git'
+cookbook 'ack',    git: 'git://github.com/cap10morgan/ack-cookbook.git'
+cookbook 'golang', git: 'git://github.com/NOX73/chef-golang.git'
+cookbook 'git',    git: 'git://github.com/jssjr/git.git'
+cookbook 'python', git: 'git://github.com/poise/python.git'
