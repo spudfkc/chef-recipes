@@ -6,18 +6,3 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-package "s3cmd" do
-    action :install
-done
-
-package "tree" do
-    action :install
-done
-
-package "git-gui" do
-    action :install
-done
-
-package "virtualbox" do
-    action :install
-done

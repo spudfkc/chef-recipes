@@ -7,7 +7,14 @@
 # All rights reserved - Do Not Redistribute
 #
 username = node.default['vimrc']['user']
-userhome = "/home/" + username
+
+log "username" do
+    level :error
+    message "this is the value of username: #{username}"
+    action :write
+end
+
+userhome = "/home/ncc"
 
 directory userhome + "/.vim/autoload" do
     owner username

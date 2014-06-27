@@ -1,0 +1,1 @@
+default['vimrc']['user'] = "changeme"
